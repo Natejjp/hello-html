@@ -10,3 +10,46 @@ body {
   margin: 0;
   min-height: 100%;
 }
+/* top and bottom 1 rem right and left 1rem */
+h1 {
+  padding: 1rem 16rem;
+  color: rgb(52, 123, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+  background-color: rgb(163, 255, 168);
+  border: 2px solid rgb(52, 123, 255);
+  padding: 1rem 18rem;
+  margin: 2rem 2rem 1rem 2rem;
+  border-radius: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0.1rem 17rem;
+}
+li:hover {
+  color: rgb(52, 123, 255);
+  font-size: 20px;
+}
+/* 3 rem all around */
+p {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p::before {
+  content: '🎾';
+}
+
+p::after {
+  content: '🎾';
+}
+/* margins collapse */
+a {
+  margin: 16rem;
+}
